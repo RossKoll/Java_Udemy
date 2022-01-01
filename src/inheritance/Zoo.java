@@ -29,7 +29,7 @@ public class Zoo {
 
     }
 
-    public static void moveAnimal(Animals animals){
+    public static void moveAnimal(Animals animals) {
         animals.move();
     }
 }
