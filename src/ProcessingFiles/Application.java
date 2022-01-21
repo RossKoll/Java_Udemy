@@ -23,7 +23,7 @@ public class Application {
 //        input.close();
 
         MyFIleUtils myFIleUtils = new MyFIleUtils();
-        System.out.println(myFIleUtils.subtract10FromLargerNumber(101));
+        System.out.println(myFIleUtils.subtract10FromLargerNumber(9));
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your name:");

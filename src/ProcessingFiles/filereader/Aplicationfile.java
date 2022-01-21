@@ -8,7 +8,7 @@ public class Aplicationfile {
         //BufferedReader bufferedReader = null;
         //FileReader fileReader = null;
         try(FileReader fileReader = new FileReader(file);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);) {
+        BufferedReader bufferedReader = new BufferedReader(fileReader)) {
 
             String line = bufferedReader.readLine();
 
